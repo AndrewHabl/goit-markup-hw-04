@@ -171,10 +171,12 @@ color: #2e2f42;
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)
         ),
-     url(../images/office.png);
+     url(../images/office.jpg);
     background-repeat: no-repeat;
-    background-size: 1440px 600px;
+    background-size: cover;
     background-position: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .solutions-title {
